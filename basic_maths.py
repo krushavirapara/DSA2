@@ -9,7 +9,7 @@ def countDigits(n: int) -> int:
         
     return cnt
 
-print( countDigits(35))
+print(countDigits(35))
 
 def reverse(n):
     ans =0
