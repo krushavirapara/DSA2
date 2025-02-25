@@ -19,7 +19,6 @@ def kth_smallest(arr,k):
 print("kth smallest",kth_smallest([1,2,131,4,5,7],3))
 
 
-
 #function to get k largest elements from arr
 def k_largest(arr,k):
 	min_heap=[]

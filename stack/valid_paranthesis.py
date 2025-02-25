@@ -33,3 +33,21 @@ def longest_valid_paranthesis(s):
 	return ans
 
 print(longest_valid_paranthesis("(())"))
+
+def longest_valid(s):
+    st =[]
+    for i in range(len(s)):
+        if s[i]=="(":
+            st.append(s[i])
+        elif st and s[i]==")":
+            if st[-1]=="(":
+                st.pop()
+            else:
+                st.append(s[i])
+                
+        else:
+            st.append(s[i])
+    print(st)        
+    return len(s)-len(st)
+
+print(longest_valid(")()())"))

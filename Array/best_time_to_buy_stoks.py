@@ -1,4 +1,4 @@
-from typing import List
+pfrom typing import List
 #leetcode 121
 def maxProfit(prices: List[int]) -> int:
     nums=prices
@@ -14,3 +14,11 @@ def maxProfit(prices: List[int]) -> int:
     return max_profit
 
 print(maxProfit([7,1,5,3,6,4]))
+
+
+import time
+
+named_tuple = time.localtime() # get struct_time
+time_string = time.strftime("%A,%d-%B-%Y", named_tuple)
+
+print(time_string)

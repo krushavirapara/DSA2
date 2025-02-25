@@ -30,5 +30,7 @@ def sort_k_ssorted_array(arr,k):
 print(sort_k_ssorted_array([6, 5, 3, 2, 8, 10, 9],3))
 
 
+
+
 	
 

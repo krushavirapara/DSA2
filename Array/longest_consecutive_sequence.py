@@ -13,6 +13,6 @@ def longest_consecutive_sequence(nums):
         longest =  max(length,longest)
     return longest
 
-print(longest_consecutive_sequence([100,1,2,200,3]))
+print(longest_consecutive_sequence([100,4,1,2,200,3]))
 
    
